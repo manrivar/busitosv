@@ -58,6 +58,9 @@
                 <li class="nav-item">
                   <a class="nav-link" href="#">CONOCENOS </a>
                 </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">CONTACTANOS </a>
+                </li>
               </ul>
             </div>
             <div class="quote_btn-container  d-flex justify-content-center">
@@ -86,9 +89,9 @@
                 <div class="col-md-4 offset-md-2">
                   <div class="slider_detail-box">
                     <h1>
-                      Professional
+                    Lorem Ipsum
                       <span>
-                        Care Your Pet
+                      Lorem Ipsum
                       </span>
                     </h1>
                     <p>
@@ -120,9 +123,9 @@
                 <div class="col-md-4 offset-md-2">
                   <div class="slider_detail-box">
                     <h1>
-                      Professional
+                    Lorem Ipsum
                       <span>
-                        Care Your Pet
+                      Lorem Ipsum
                       </span>
                     </h1>
                     <p>
@@ -154,9 +157,9 @@
                 <div class="col-md-4 offset-md-2">
                   <div class="slider_detail-box">
                     <h1>
-                      Professional
+                    Lorem Ipsum
                       <span>
-                        Care Your Pet
+                      Lorem Ipsum
                       </span>
                     </h1>
                     <p>
@@ -188,9 +191,9 @@
                 <div class="col-md-4 offset-md-2">
                   <div class="slider_detail-box">
                     <h1>
-                      Professional
+                    Lorem Ipsum
                       <span>
-                        Care Your Pet
+                      Lorem Ipsum
                       </span>
                     </h1>
                     <p>
@@ -230,25 +233,24 @@
       <div class="row">
         <div class="col-md-6">
           <div class="img-box">
-            <img src="/Landing/images/about.png" alt="">
+            <img src="/Landing/images/about.jpg" alt="" style="heigth:25px !important;">
           </div>
         </div>
         <div class="col-md-6">
           <div class="detail-box">
             <h2 class="custom_heading">
-              About Our Pets
+              Rutas
               <span>
-                Clinic
+                Buses y Microbuses
               </span>
             </h2>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-              industry's standard dummy text ever since theLorem Ipsum is simply dummy text of the printing and
-              typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the
+            Visitar San Salvador nunca ha sido tan fácil. Obtenga indicaciones paso a paso sobre la marcha de las rutas
+            de buses o microbuses a cualquier destino, calle o estación del Gran San Salvador.
             </p>
             <div>
               <a href="">
-                About More
+                Más información...
               </a>
             </div>
           </div>
@@ -263,7 +265,7 @@
       <div class="row">
         <div class="col-md-6 offset-md-2">
           <h2 class="custom_heading">
-            Our <span>Services</span>
+            Conocenos | <span> BUSITO SV</span>
           </h2>
           <div class="container layout_padding2">
             <div class="row">
@@ -273,7 +275,7 @@
                 </div>
                 <div class="detail_box">
                   <h6>
-                    Pet Care
+                    ¡Busca!
                   </h6>
                   <p>
                     onsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -287,7 +289,7 @@
                 </div>
                 <div class="detail_box">
                   <h6>
-                    Pet Hotel
+                    ¡Elige!
                   </h6>
                   <p>
                     onsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -301,7 +303,7 @@
                 </div>
                 <div class="detail_box">
                   <h6>
-                    Emergency
+                    ¡Viaja!
                   </h6>
                   <p>
                     onsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -326,157 +328,6 @@
 
   <!-- end service section -->
 
-
-
-  <!-- gallery section -->
-  <section class="gallery-section layout_padding">
-    <div class="container">
-      <h2>
-        Our Gallery
-      </h2>
-    </div>
-    <div class="container ">
-      <div class="img_box box-1">
-        <img src="/Landing/images/g-1.png" alt="">
-      </div>
-      <div class="img_box box-2">
-        <img src="/Landing/images/g-2.png" alt="">
-      </div>
-      <div class="img_box box-3">
-        <img src="/Landing/images/g-3.png" alt="">
-      </div>
-      <div class="img_box box-4">
-        <img src="/Landing/images/g-4.png" alt="">
-      </div>
-      <div class="img_box box-5">
-        <img src="/Landing/images/g-5.png" alt="">
-      </div>
-    </div>
-  </section>
-
-
-
-  <!-- end gallery section -->
-
-  <!-- buy section -->
-
-  <section class="buy_section layout_padding">
-    <div class="container">
-      <h2>
-        You Can Buy Pet From Our Clinic
-      </h2>
-      <p>
-        consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-      </p>
-      <div class="d-flex justify-content-center">
-        <a href="">
-          Buy Now
-        </a>
-      </div>
-    </div>
-  </section>
-
-  <!-- end buy section -->
-
-  <!-- client section -->
-  <section class="client_section layout_padding-bottom">
-    <div class="container">
-      <h2 class="custom_heading text-center">
-        What Say Our
-        <span>
-          clients
-        </span>
-      </h2>
-      <p class="text-center">
-        orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut la
-      </p>
-      <div id="carouselExample2Indicators" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#carouselExample2Indicators" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExample2Indicators" data-slide-to="1"></li>
-          <li data-target="#carouselExample2Indicators" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <div class="layout_padding2 pl-100">
-              <div class="client_container ">
-                <div class="img_box">
-                  <img src="/Landing/images/client.jpg" alt="">
-                </div>
-                <div class="detail_box">
-                  <h5>
-                    Sandy Mark
-                  </h5>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et
-                    dolore
-                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-                    ea
-                    commodo
-                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="layout_padding2 pl-100">
-              <div class="client_container ">
-                <div class="img_box">
-                  <img src="/Landing/images/client.jpg" alt="">
-                </div>
-                <div class="detail_box">
-                  <h5>
-                    Sandy Mark
-                  </h5>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et
-                    dolore
-                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-                    ea
-                    commodo
-                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="layout_padding2 pl-100">
-              <div class="client_container ">
-                <div class="img_box">
-                  <img src="/Landing/images/client.jpg" alt="">
-                </div>
-                <div class="detail_box">
-                  <h5>
-                    Sandy Mark
-                  </h5>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et
-                    dolore
-                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-                    ea
-                    commodo
-                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-
-
-    </div>
-
-  </section>
-  <!-- end client section -->
-
   <!-- map section -->
 
   <section class="map_section">
@@ -489,24 +340,24 @@
           <form action="">
             <div class="text-center">
               <h3>
-                Contact Us
+                ¡Contactanos!
               </h3>
             </div>
             <div>
-              <input type="text" placeholder="Name" class="pt-3">
+              <input type="text" placeholder="Nombre" class="pt-3">
             </div>
             <div>
-              <input type=" text" placeholder="Pone Number">
+              <input type=" text" placeholder="Número de Teléfono">
             </div>
             <div>
               <input type="email" placeholder="Email">
             </div>
             <div>
-              <input type="text" class="message-box" placeholder="Message">
+              <input type="text" class="message-box" placeholder="Mensaje">
             </div>
             <div class="d-flex justify-content-center">
               <button>
-                SEND
+                Enviar
               </button>
             </div>
           </form>
@@ -530,7 +381,7 @@
             </div>
             <div class="detail-box">
               <p>
-                Location
+                San Salvador, El Salvador
               </p>
             </div>
           </div>
@@ -568,8 +419,8 @@
   <!-- footer section -->
   <section class="container-fluid footer_section">
     <p>
-      &copy; 2019 All Rights Reserved By
-      <a href="https://html.design/">Free Html Templates</a>
+      &copy; 2022 All Rights Reserved By
+      <a href="https://html.design/">BUSITO SV</a>
     </p>
   </section>
   <!-- footer section -->
