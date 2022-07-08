@@ -53,13 +53,13 @@
                   <a class="nav-link" href="/">INICIO <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">RUTAS </a>
+                  <a class="nav-link" href="#rutas">RUTAS </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">CONOCENOS </a>
+                  <a class="nav-link" href="#conocenos">CONOCENOS </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">CONTACTANOS </a>
+                  <a class="nav-link" href="#contactanos">CONTACTANOS </a>
                 </li>
               </ul>
             </div>
@@ -99,19 +99,11 @@
                       typesetting industry.
                       Lorem Ipsum has been the industry's standard dummy text ever
                     </p>
-                    <div class="btn-box">
-                      <a href="" class="btn-1">
-                        Buy now
-                      </a>
-                      <a href="" class="btn-2">
-                        Contact
-                      </a>
-                    </div>
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="slider_img-box">
-                    <img src="/Landing/images/slider-img.png" alt="">
+                    <img src="/Landing/images/slider-img.jpg" alt="" style="height:400px !important; width:400px !important;">
                   </div>
                 </div>
               </div>
@@ -133,19 +125,11 @@
                       typesetting industry.
                       Lorem Ipsum has been the industry's standard dummy text ever
                     </p>
-                    <div class="btn-box">
-                      <a href="" class="btn-1">
-                        Buy now
-                      </a>
-                      <a href="" class="btn-2">
-                        Contact
-                      </a>
-                    </div>
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="slider_img-box">
-                    <img src="/Landing/images/slider-img.png" alt="">
+                    <img src="/Landing/images/slider-img.jpg" alt="" style="height:400px !important; width:400px !important;">
                   </div>
                 </div>
               </div>
@@ -167,19 +151,11 @@
                       typesetting industry.
                       Lorem Ipsum has been the industry's standard dummy text ever
                     </p>
-                    <div class="btn-box">
-                      <a href="" class="btn-1">
-                        Buy now
-                      </a>
-                      <a href="" class="btn-2">
-                        Contact
-                      </a>
-                    </div>
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="slider_img-box">
-                    <img src="/Landing/images/slider-img.png" alt="">
+                    <img src="/Landing/images/slider-img.jpg" alt="" style="height:400px !important; width:400px !important;">
                   </div>
                 </div>
               </div>
@@ -201,19 +177,11 @@
                       typesetting industry.
                       Lorem Ipsum has been the industry's standard dummy text ever
                     </p>
-                    <div class="btn-box">
-                      <a href="" class="btn-1">
-                        Buy now
-                      </a>
-                      <a href="" class="btn-2">
-                        Contact
-                      </a>
-                    </div>
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="slider_img-box">
-                    <img src="/Landing/images/slider-img.png" alt="">
+                    <img src="/Landing/images/slider-img.jpg" alt="" style="height:400px !important; width:400px !important;">
                   </div>
                 </div>
               </div>
@@ -228,12 +196,12 @@
 
   <!-- about section -->
 
-  <section class="about_section layout_padding">
+  <section id="rutas" class="about_section layout_padding">
     <div class="container">
       <div class="row">
         <div class="col-md-6">
           <div class="img-box">
-            <img src="/Landing/images/about.jpg" alt="" style="heigth:25px !important;">
+            <img src="/Landing/images/about.jpg" alt="" style="height:400px !important;">
           </div>
         </div>
         <div class="col-md-6">
@@ -260,7 +228,7 @@
   </section>
 
   <!-- service section -->
-  <section class="service_section layout_padding">
+  <section id="conocenos" class="service_section layout_padding">
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-6 offset-md-2">
@@ -313,14 +281,9 @@
               </div>
             </div>
           </div>
-          <div>
-            <a href="">
-              Read More
-            </a>
-          </div>
         </div>
         <div class="col-md-4">
-          <img src="/Landing/images/tool.png" alt="" class="w-100">
+          <img src="/Landing/images/logob.png" alt="" class="w-70">
         </div>
       </div>
     </div>
@@ -330,7 +293,7 @@
 
   <!-- map section -->
 
-  <section class="map_section">
+  <section id="contactanos" class="map_section">
     <div id="map" class="h-100 w-100 ">
     </div>
 
@@ -393,7 +356,7 @@
             </div>
             <div class="detail-box">
               <p>
-                +02 1234567890
+                +503 2257 7777
               </p>
             </div>
           </div>
@@ -405,7 +368,7 @@
             </div>
             <div class="detail-box">
               <p>
-                demo@gmail.com
+                busitosv@gmail.com
               </p>
             </div>
           </div>
@@ -435,16 +398,16 @@
       var map = new google.maps.Map(document.getElementById('map'), {
         zoom: 11,
         center: {
-          lat: 40.645037,
-          lng: -73.880224
+          lat: 13.71481290691618, 
+          lng: -89.23896308516025
         },
       });
 
       var image = '/Landing/images/maps-and-flags.png';
       var beachMarker = new google.maps.Marker({
         position: {
-          lat: 40.645037,
-          lng: -73.880224
+          lat: 13.71481290691618, 
+          lng: -89.23896308516025
         },
         map: map,
         icon: image
