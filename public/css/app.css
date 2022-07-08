@@ -2175,3 +2175,47 @@ select {
   height:3.5em;
   width: 3.5em;
 }
+/* Estilo para el menu lateral del layout */
+/* .sidebar {
+  height: 100%;
+  width: 150px;
+  position: absolute;
+  left: 0;
+  top: 100px;
+  padding-top: 100px;
+  background-color: rgb(13, 139, 180);
+}
+
+.sidebar div {
+  padding: 8px;
+  font-size: 24px;
+  display: block;
+} */
+
+/* Set the size of the div element that contains the map */
+#map {
+  height: 90vh;
+  width: 100%;
+  /* left: auto; */
+}
+/* * Optional: Makes the sample page fill the window. */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+ 
+#floating-panel {
+  position: absolute;
+  top: 130px;
+  left: 0.4%;
+  z-index: 5;
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #999;
+  text-align: center;
+  font-family: "Roboto", "sans-serif";
+  line-height: 30px;
+  padding-left: 10px;
+}
